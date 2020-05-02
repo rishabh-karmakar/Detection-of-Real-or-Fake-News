@@ -7,6 +7,7 @@ To build a model to accurately classify a piece of news as REAL or FAKE.
 Using sklearn,  build a **TfidfVectorizer** on the provided dataset. Then, initialize a **PassiveAggressive Classifier** and fit the model. In the end, the accuracy score and the confusion matrix tell us how well our model fares.
 
 ## Description of all files:
+* news.zip: Unzip the Dataset to get news.csv
 * news.csv: Dataset having fake and real news
 * Real_or_Fake_News.ipynb: Jupyter Notebook containing all explanation and my workdoings
 * train.py: Simply run this file to automatically train the model and generate vocabulary and model.pkl file to be saved for further <br><b>Could be run only once</b>
